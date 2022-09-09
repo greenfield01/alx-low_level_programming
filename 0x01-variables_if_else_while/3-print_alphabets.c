@@ -2,6 +2,8 @@
 
 /**
  * main - Entry point
+ *
+ *
  * Return: Always 0 (Sucess)
  */
 
@@ -22,5 +24,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-
