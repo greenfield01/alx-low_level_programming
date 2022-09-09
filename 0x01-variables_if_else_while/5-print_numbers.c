@@ -2,19 +2,18 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Succes)
  */
 
 int main(void)
 {
-	char c;
+	int n;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	for (n = 0 ; n < 10 ; n++)
 	{
-		putchar(c);
-	}									}
+		printf("%d", n);
+	}
 	putchar('\n');
 	return (0);
 }
-
 
