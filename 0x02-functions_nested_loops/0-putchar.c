@@ -9,14 +9,17 @@
 
 int main()
 {
-	*sh = "_putchar";
 
-	while (*sh)
+	*lettters = "_putchar";
+
+	while (*letters)
 	{
-		_putchar(*sh);
+		_putchar(*letters);
 
-		word++;
+		letters++;
 	}
+
+	_putchar(\n);
 
 	return (0);
 }
