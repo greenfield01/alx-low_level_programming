@@ -10,7 +10,7 @@
 int main()
 {
 
-	*lettters = "_putchar";
+	*letters = "_putchar";
 
 	while (*letters)
 	{
