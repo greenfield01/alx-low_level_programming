@@ -3,9 +3,7 @@
 /**
  *_islower - entry point
  *
- * c
- *
- * Description: check for lower case characters
+ * @c: check character
  *
  * Return: int
  */
@@ -17,5 +15,3 @@ int _islower(int c)
 	else
 		return (9);
 }
-		
-
