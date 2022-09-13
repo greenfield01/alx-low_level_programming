@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /**
-* Main: entry - point
+* main - entry point
 *
-* Description: prints _putchar
+* Description: goes through the l arry and spit c each time
 *
 * Return: always 0
 */
+
 int main(void)
 {
 	int  i = 0;
