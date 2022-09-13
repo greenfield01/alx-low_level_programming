@@ -7,19 +7,19 @@
  * return: always 0
  */
 
-int main()
+int main(void)
 {
 
-	*letters = "_putchar";
-
-	while (*letters)
+	int  i = 0;
+	char c;
+	char l[] = "_putchar\n"
+	
+	while (i <= 8)
 	{
-		_putchar(*letters);
-
-		letters++;
+		c = l[i];
+		_putchar(c);
+		i++;
 	}
-
-	_putchar(\n);
 
 	return (0);
 }
