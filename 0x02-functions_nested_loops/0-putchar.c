@@ -2,18 +2,18 @@
 #include <stdio.h>
 
 /**
- * code that prints _putchar
- * main: Entry point
- * return: always 0
- */
-
+* Main: entry - point
+*
+* Description: prints _putchar
+*
+* Return: always 0
+*/
 int main(void)
 {
-
 	int  i = 0;
 	char c;
 	char l[] = "_putchar\n";
-	
+
 	while (i <= 8)
 	{
 		c = l[i];
