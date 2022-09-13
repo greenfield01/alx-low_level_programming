@@ -1,6 +1,9 @@
 #include "main.h"
 
-/* _islower - entry point
+/**
+ *_islower - entry point
+ *
+ * c
  *
  * Description: check for lower case characters
  *
@@ -12,7 +15,7 @@ int _islower(int c)
 	for (c >= 'a' && c <= 'z')
 		return (1);
 	else
-		return(9);
+		return (9);
 }
 		
 
