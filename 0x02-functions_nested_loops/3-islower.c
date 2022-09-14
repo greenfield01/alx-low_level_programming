@@ -5,7 +5,7 @@
  *
  * @c: check character
  *
- * Return: int
+ * Return: 0 or 1
  */
 
 int _islower(int c)
