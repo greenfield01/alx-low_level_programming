@@ -3,7 +3,7 @@
 
 /**
  * print_sign - entry point
- * @n: 
+ * @n: n's value
  * Return: 9 or 1
  */
 
