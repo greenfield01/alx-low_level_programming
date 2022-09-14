@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  *_islower - entry point
@@ -14,8 +15,6 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else
-	{
-		return (0);
-	}
+
+	return (0);
 }
