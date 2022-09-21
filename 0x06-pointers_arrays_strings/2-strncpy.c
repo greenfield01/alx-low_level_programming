@@ -5,6 +5,7 @@
  * _strncpy - copy string
  * @dest: first str
  * @src: second str
+ * @n: limit
  * Return: dest
  */
 
