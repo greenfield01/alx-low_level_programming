@@ -6,15 +6,15 @@
  * Return: return upper case x
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *x)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; x[i] != '\0'; i++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] = s[i] - 32;
+		if (x[i] >= 'a' && x[i] <= 'z')
+			x[i] = x[i] - 8;
 	}
 
-	return (s);
+	return (x);
 }
