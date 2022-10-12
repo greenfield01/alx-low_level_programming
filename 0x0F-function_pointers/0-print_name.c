@@ -10,7 +10,6 @@
 void print_name(char *name, void (*f)(char *))
 {
 	char[] n;
-	if (f && name)
-		n = (*f)(name);
-		printf(n);
+	if (f != NULL && name != NULL)
+		(*f)(name);
 }
